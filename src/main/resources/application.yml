@@ -1,1 +1,11 @@
+spring:
+  application:
+    name: ciphercard
 
+server:
+  port: 8861
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
